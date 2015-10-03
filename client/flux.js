@@ -31,8 +31,8 @@ Store = {
     Session.set("addOneSessionVar", currentCount + 1);
     return;
   },
-  //
-  addOneReactiveVar: (currentCount) => {
+
+  addOneReactiveVar: () => {
     return currentCountReactiveVar.get();
   }
 };
